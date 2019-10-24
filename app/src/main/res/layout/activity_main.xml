@@ -1,0 +1,21 @@
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/OnBluetooth"
+    android:text="OnBluetooth"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/paireddevices"
+        android:text="paireddevices"
+        android:layout_below="@id/OnBluetooth"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/discoverdevices"
+        android:text="discoverbluetoothdevices"
+        android:layout_below="@id/paireddevices"/>
+</RelativeLayout>
